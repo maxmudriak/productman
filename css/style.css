@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:900|Roboto:300,400,700');
+body{
+	font: 300 24px/1.33 "Roboto", Arial, sans-serif;
+	background: #eeeeee;
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1240px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+.ba-logo-a {
+	float: left;
+}
+.ba-menu {
+	float: right;
+}
+.ba-logo-a img {
+	display: block;
+}
+.ba-nav-menu {
+	padding: 6px 0 0 0;
+	margin: 0;
+	list-style: none;
+}
+.ba-hed-logo {
+	padding-top: 50px;
+}
+.ba-nav-menu li {
+	display: inline-block;
+	padding: 0 21px;
+}
+.ba-nav-menu li:last-of-type {
+padding-right: 0;
+}
+.ba-nav-menu a {
+	text-decoration: none;
+	font: 400 18px/1.5 'Roboto', sans-serif;
+	color:  #303030;
+}
+.ba-nav-menu button {
+	background: url(../img/Menu.png) no-repeat center;
+	border: 0;
+	width: 17px;
+	height: 15px;
+}
+.ba-slider {
+	font-size: 0;
+	margin-top: 105px;
+}
+.ba-body,
+.ba-slider-img {
+	display: inline-block;
+	width: 50%;
+	font-size: 24px;
+	vertical-align: top;
+	text-align: right;
+}
+.ba-title {
+	font: 900 150px/1 'Raleway', sans-serif;
+	color:  #303030;
+	text-align: right;
+	text-transform: uppercase;
+	margin: 0;
+	letter-spacing: 0.0025em;
+}
+.ba-slider-img {
+	padding: 0 118px 0 104px;
+}
+.ba-text {
+	text-align: right;
+	font: 300 24px/1.5 'Roboto', sans-serif;
+	color:  #303030;
+	margin-bottom: 10px;
+}
+.ba-viev-project {
+	font: 700 24px/1.5 'Roboto', sans-serif;
+	color:  #e10011;
+	text-decoration: none;
+}
+.ba-radiobutton {
+	display: inline-block;
+	border: 1px solid #ccc;
+	width: 13px;
+	height: 13px;
+	border-radius: 50%;
+	cursor: pointer;
+	background: #303030;
+	margin: 0 3px;
+}
+.ba-sliderbutton {
+	margin-bottom: 100px;
+	width: 50%;
+	text-align: right;
+	padding: 60px 0 100px 0;
+}
+.ba-sliderbutton [type="radio"] {
+	display: none;
+}
+.ba-radiobutton:first-child {
+		background: #e10011;
+}
