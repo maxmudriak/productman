@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:900|Roboto:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,900|Roboto:300,400,700');
 body{
 	font: 300 24px/1.33 "Roboto", Arial, sans-serif;
 	background: #eeeeee;
@@ -134,10 +134,16 @@ padding-right: 0;
 	margin: 0 3px;
 }
 .ba-sliderbutton {
-	margin-bottom: 100px;
-	width: 50%;
-	text-align: right;
-	padding: 60px 0 100px 0;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	top: 0;
+	right: 0;
+	margin: auto;
+	width: 100px;
+	height: 20px;
+	margin-top: 63px;
+
 }
 .ba-sliderbutton [type="radio"] {
 	display: none;
@@ -145,3 +151,84 @@ padding-right: 0;
 .ba-radiobutton:first-child {
 		background: #e10011;
 }
+.ba-abs {
+	position: relative;
+}
+.ba-portfolio {
+	background: #fff;
+	margin-top: 179px;
+	padding: 94px 0 32px;
+	max-width: 1240px;
+	margin-bottom: 50px;
+	border-radius: 10px;
+}
+.ba-portfolio__title {
+	font: 900 48px/1.5 'Raleway', sans-serif;
+	color:  #303030;
+	text-align: center;
+	background: url(../img/underline.jpg) no-repeat center bottom;
+	padding-bottom: 16px;
+	margin: 0;
+	letter-spacing: 0.025em;
+}
+.ba-portfolio__text {
+	font-family: Raleway;
+	font: 400 18px/1.33 'Raleway', sans-serif;
+	color:  #303030;
+	text-align: center;
+	margin: auto;
+	width: 50%;
+	margin-top: 11px;
+	margin-bottom: 70px;
+	letter-spacing: 0.025em;
+}
+.ba-row {
+	padding-left: 33px;
+}
+.ba-work {
+	text-decoration: none;
+	text-align: center;
+	color: #fff;
+	display: block;
+	position: relative;
+}
+.ba-work img {
+	display: block;
+}
+.ba-work__caption {
+	background: #e10011;
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	border-radius: 10px;
+	opacity: 0;
+	transition: opacity .5s;
+}
+.ba-work:hover .ba-work__caption {
+	opacity: 1;
+}
+.ba-work__caption-body {
+	padding: 0 35px 28px;
+	position: absolute;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	text-align: left;
+	letter-spacing: 0.025em;
+
+}
+.ba-work__caption-body:after {
+	display: block;
+	content: "";
+	border-bottom: 5px solid #fff;
+	max-width: 95px;
+	margin-top: 5px;
+}
+[class*="ba-col-"] {
+	float: left;
+	margin-bottom: 40px;
+	padding-left: 40px;
+}
+
